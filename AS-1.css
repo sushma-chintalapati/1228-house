@@ -1,0 +1,59 @@
+body{
+    background-image: url(http://www.luxxu.net/blog/wp-content/uploads/2018/07/5-Tips-For-Decorating-a-Dark-Room-06.jpg);background-repeat: no-repeat;
+    background-size: cover; 
+}
+.i{
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap: wrap;
+    word-spacing: 30px;
+    font-size: 125%;
+}
+.container ul li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;    
+}
+
+a:hover {
+    text-decoration:4px underline rgb(39, 111, 114);
+    cursor: pointer;
+} 
+p{
+    font-size: x-large;
+    color: white;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    font-size: 450%;
+    word-spacing: 30px;
+}
+p{
+    font-size: larger;
+    color: white;
+}
+.s{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}
+button{
+    border-radius: 50px;
+    font-size: large;
+    width: 200px;
+  height: 50px;
+    background: rgba(255, 255, 255, 0.219);  
+    transition: background-color 2s ease-out;
+    border-color: rgb(32, 70, 56);
+}
+button:hover {
+    background-color: rgb(4, 94, 4);
+    cursor: pointer;
+}
